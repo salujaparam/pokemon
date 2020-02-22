@@ -1,0 +1,75 @@
+.modal {
+    width: 25rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 22rem;
+    transform: translate(-50%, -50%);
+    z-index: 1 !important;
+    background-color: #f5d4db;
+    overflow-y: auto;
+    opacity: 0.9;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6d6565
+  }
+
+  .close{
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 0px 10px 0px 0px;
+    font-size: 1.2rem;
+  }
+
+  header{
+      display: flex;
+      justify-content: space-between;
+      height: 3rem;
+      text-transform: capitalize;
+  }
+
+  h2{
+      padding-left: 10px;
+  }
+
+  .modal-image {
+      padding-left: 9rem;
+      width: 7rem;
+      height: 7rem;
+  }
+  .ability{
+      color: #6d6565;
+  }
+  .abilities {
+      padding-left: 10px;
+  }
+  .height {
+      padding-left: 10px;
+  }
+  .weight {
+      padding-left: 10px;
+  }
+  .stat{
+    color: #6d6565;
+  }   
+  .stats {
+    padding-left: 10px;
+  }
